@@ -56,7 +56,6 @@ public class SingleQuestionFragment extends Fragment {
             if (txt.equals(question.getAnswer())) {
                 Toast.makeText(getContext(),
                         "Your answer is correct", Toast.LENGTH_LONG).show();
-                this.getParentFragmentManager().popBackStack();
             } else {
                 ((CustomButton) view).setWrong(true);
                 view.invalidate();
