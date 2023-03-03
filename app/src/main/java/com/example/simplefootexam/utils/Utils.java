@@ -5,11 +5,13 @@ import androidx.annotation.RawRes;
 import com.example.simplefootexam.R;
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 import java.io.InputStream;
 import java.util.Scanner;
-
+import android.content.Context;
 
 public class Utils {
+
 
     public String readRawResource(@RawRes int res, Context context) {
         return readStream(context.getResources().openRawResource(res));

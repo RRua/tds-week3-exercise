@@ -42,8 +42,7 @@ public class SingleQuestionFragment extends Fragment {
     Question question;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_single_question, container, false);
         ButterKnife.bind(this, v);
         return v;
@@ -55,12 +54,10 @@ public class SingleQuestionFragment extends Fragment {
         if (view instanceof CustomButton) {
             String txt = ((CustomButton) view).getText().toString();
             if (txt.equals(question.getAnswer())) {
-                Toast.makeText(getContext(), "Your answer is correct!",
-                        Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(),
+                        "Your answer is correct", Toast.LENGTH_LONG).show();
                 this.getParentFragmentManager().popBackStack();
             } else {
-                Toast.makeText(getContext(), "Your answer is wrong!",
-                        Toast.LENGTH_SHORT).show();
                 ((CustomButton) view).setWrong(true);
                 view.invalidate();
             }
@@ -82,8 +79,8 @@ public class SingleQuestionFragment extends Fragment {
         buttonBottomLeft.setText(l.get(2));
         buttonBottomRight.setText(l.get(3));
         textViewQuestion.setText(question.getQuestion());
-        questionImage.setImageBitmap(BitmapFactory.decodeResource(this.getResources(),
-                quest.getImageId()));
+        questionImage
+                .setImageBitmap(BitmapFactory.decodeResource(this.getResources(),
+                        quest.getImageId()));
     }
-
 }

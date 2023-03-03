@@ -8,7 +8,6 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import androidx.appcompat.widget.AppCompatButton;
 
-
 public class CustomButton extends AppCompatButton {
 
     private boolean isWrong = false;
@@ -21,8 +20,7 @@ public class CustomButton extends AppCompatButton {
 
     public CustomButton(Context context, AttributeSet attrs) {
         super(context, attrs);
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CustomButton,
-                0, 0);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CustomButton, 0, 0);
         color_wrong = a.getColor(R.styleable.CustomButton_valueColor, Color.RED);
     }
 

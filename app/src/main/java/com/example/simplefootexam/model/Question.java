@@ -6,7 +6,6 @@ import com.example.simplefootexam.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import android.content.Context;
 
 public class Question implements Parcelable {
