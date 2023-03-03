@@ -30,7 +30,7 @@ This exercise requires using and constructing an application that is illustrativ
 
 #### Exercise 3
 
-1. This application contains several performance smells reported in the literature. These smells can be identified manually, through the Lint tool that is used by the Android Studio. The application contains several smells in its source code. Identify the smells contained in the application and refactor the smells according to the suggestions given by the Android Studio 
+1. This application contains several performance smells reported in the literature. These smells can be identified manually by inspecting Android Studio hints given by Android Studio or through the Lint tool that is used by the Android Studio. Identify the smells contained in the application and refactor the smells according to the suggestions given by the Android Studio.
 
 2. In addition to the code smells that can be found, major performance improvements can be added through simple refactorings. Identify some of the app bottlenecks and perform refactors to repair them. Hints: change of image loading method, object caching.
 
