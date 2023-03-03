@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleQuestionFragment"
+    android:id="@+id/singlequestionfragment"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageQuestion"
+        android:src="@drawable/marega"
+        android:minHeight="250dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:maxWidth="400dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/textViewQuestion"
+        android:layout_height="300dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:includeFontPadding="true"
+        android:elegantTextHeight="true"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_height="wrap_content"
+        android:text="Sample text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:layout_weight="0.1"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/rel"
+        android:background="@drawable/rounded_button"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0.4"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/lin1"
+            android:layout_width="fill_parent"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+            <com.example.simplefootexam.CustomButton
+                android:id="@+id/button_top_left"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/white"
+                android:layout_width="10dip"
+                android:layout_margin="5dp"
+                android:layout_height="fill_parent"
+                android:text="Marega"
+                android:layout_weight="1.0"
+                />
+
+            <com.example.simplefootexam.CustomButton
+                android:id="@+id/button_top_right"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/white"
+                android:layout_width="10dp"
+                android:layout_margin="5dp"
+                android:layout_height="fill_parent"
+                android:text="Marega"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:orientation="horizontal"
+            android:layout_below="@id/lin1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.example.simplefootexam.CustomButton
+                android:id="@+id/button_bottom_left"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/white"
+                android:layout_width="10dip"
+                android:layout_margin="5dp"
+                android:layout_height="fill_parent"
+                android:text="Moussa"
+                android:layout_weight="1.0"
+                />
+            <com.example.simplefootexam.CustomButton
+                android:id="@+id/button_bottom_right"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/white"
+                android:layout_width="10dip"
+                android:layout_margin="5dp"
+                android:layout_height="fill_parent"
+                android:text="Moussa"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

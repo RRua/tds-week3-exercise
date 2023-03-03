@@ -1,0 +1,295 @@
+[
+  {"question": "Who is this football player?",
+  "alternatives": [
+    "Moussa Marega",
+    "João Felix",
+    "Zinedine Zidade",
+    "Ronaldo"
+  ],
+    "image": "marega"
+  },
+  {"question": "What is the name of the team for which this player plays?",
+    "alternatives": [
+      "Porto",
+      "Gremio",
+      "Braga",
+      "Belenenses"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Zaidu",
+      "João Felix",
+      "Zinedine Zidade",
+      "Ronaldo"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Ronaldinho",
+      "Ronaldo",
+      "Enzo Zidade",
+      "Neymar"
+    ],
+    "image": "ronaldinho"
+  },
+  {"question": "In which game was this goal scored?",
+    "alternatives": [
+      "O Classico",
+      "O Derby",
+      "El Clasico",
+      "Derby do Rio"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Otavio",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "otavio"
+  },
+
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Marega",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "marega"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Moussa Marega",
+      "João Felix",
+      "Zinedine Zidade",
+      "Ronaldo"
+    ],
+    "image": "marega"
+  },
+  {"question": "What is the name of the team for which this player plays?",
+    "alternatives": [
+      "Porto",
+      "Gremio",
+      "Braga",
+      "Belenenses"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Zaidu",
+      "João Felix",
+      "Zinedine Zidade",
+      "Ronaldo"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Ronaldinho",
+      "Ronaldo",
+      "Enzo Zidade",
+      "Neymar"
+    ],
+    "image": "ronaldinho"
+  },
+  {"question": "In which game was this goal scored?",
+    "alternatives": [
+      "O Classico",
+      "O Derby",
+      "El Clasico",
+      "Derby do Rio"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Otavio",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "otavio"
+  },
+
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Marega",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "marega"
+  },
+  {"question": "What is the name of the team for which this player plays?",
+    "alternatives": [
+      "Porto",
+      "Gremio",
+      "Braga",
+      "Belenenses"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Zaidu",
+      "João Felix",
+      "Zinedine Zidade",
+      "Ronaldo"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Ronaldinho",
+      "Ronaldo",
+      "Enzo Zidade",
+      "Neymar"
+    ],
+    "image": "ronaldinho"
+  },
+  {"question": "In which game was this goal scored?",
+    "alternatives": [
+      "O Classico",
+      "O Derby",
+      "El Clasico",
+      "Derby do Rio"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Otavio",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "otavio"
+  },
+
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Marega",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "marega"
+  },
+  {"question": "What is the name of the team for which this player plays?",
+    "alternatives": [
+      "Porto",
+      "Gremio",
+      "Braga",
+      "Belenenses"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Zaidu",
+      "João Felix",
+      "Zinedine Zidade",
+      "Ronaldo"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Ronaldinho",
+      "Ronaldo",
+      "Enzo Zidade",
+      "Neymar"
+    ],
+    "image": "ronaldinho"
+  },
+  {"question": "In which game was this goal scored?",
+    "alternatives": [
+      "O Classico",
+      "O Derby",
+      "El Clasico",
+      "Derby do Rio"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Otavio",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "otavio"
+  },
+
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Marega",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "marega"
+  },
+  {"question": "What is the name of the team for which this player plays?",
+    "alternatives": [
+      "Porto",
+      "Gremio",
+      "Braga",
+      "Belenenses"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Zaidu",
+      "João Felix",
+      "Zinedine Zidade",
+      "Ronaldo"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Ronaldinho",
+      "Ronaldo",
+      "Enzo Zidade",
+      "Neymar"
+    ],
+    "image": "ronaldinho"
+  },
+  {"question": "In which game was this goal scored?",
+    "alternatives": [
+      "O Classico",
+      "O Derby",
+      "El Clasico",
+      "Derby do Rio"
+    ],
+    "image": "zaidu"
+  },
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Otavio",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "otavio"
+  },
+
+  {"question": "Who is this football player?",
+    "alternatives": [
+      "Marega",
+      "Nani",
+      "Enzo Zidade",
+      "Manafa"
+    ],
+    "image": "marega"
+  }
+]
